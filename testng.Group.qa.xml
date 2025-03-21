@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ABT8X_APIAutomationPrograms">
+
+        <groups>
+            <run>
+                <include name="qa"></include>
+                <exclude name="res"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.RestAssuredBasic.GET.APITesting_005_BDDStyleGET">
+            </class>
+        </classes>
+    </test></suite>
